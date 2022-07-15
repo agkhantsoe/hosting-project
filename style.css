@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+  color: white;
+  padding: 0;
+  background-color: #030c16;
+}
+header {
+  height: 200px;
+ 
+}
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  font-size: 32px;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-items li a {
+  color: white;
+  text-decoration: none;
+}
+main {
+    padding: 28px 128px;
+}
+.recent .view-all {
+  display: flex;
+  justify-content: space-between;
+}
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.movie-item a {
+  height: 200px;
+  width: 150px;
+}
+.movie-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
